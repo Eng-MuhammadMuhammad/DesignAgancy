@@ -1,0 +1,90 @@
+.header {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.links {
+  position: relative;
+}
+
+.links:hover .icon span:nth-child(2) {
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.icon span {
+  background-color: #333;
+  margin-bottom: 5px;
+  height: 2px;
+}
+
+.icon span:first-child {
+  width: 100%;
+}
+
+.icon span:nth-child(2) {
+  width: 60%;
+  transition: .3s;
+}
+
+.icon span:last-child {
+  width: 100%;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  position: absolute;
+  right: 0;
+  min-width: 200px;
+  top: calc(100% + 15px);
+  display: none;
+  z-index: 1;
+}
+
+.links:hover .navList {
+  display: block;
+}
+
+.navList::before {
+  content: " ";
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6 transparent;
+  position: absolute;
+  right: 5px;
+  top: -19px;
+}
+
+.navItem {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  transition: .3s;
+}
+
+.navItem:hover {
+  padding-left: 20px;
+}
+
+.navItem:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}

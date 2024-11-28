@@ -1,0 +1,48 @@
+/* Start Portfolio */
+.portfolio {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--section-background);
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  color: #8d7e7e;
+}
+.subtitle {
+  color: #777;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+.portfolioContent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+}
+.card {
+  background-color: white;
+  width: 300px; /* Adjust as needed */
+}
+.cardImg {
+  max-width: 100%;
+}
+.info {
+  padding: 50px;
+}
+.infoTitle {
+  margin: 0;
+}
+.infoText {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+/* End Portfolio */
