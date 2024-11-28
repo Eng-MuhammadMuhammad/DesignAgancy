@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DesignAgancy/static/css/main.cf968e92.css",
+    "main.js": "/DesignAgancy/static/js/main.872f9104.js",
+    "static/media/landing.jpg": "/DesignAgancy/static/media/landing.24ec9aeb7fc32bdfed56.jpg",
+    "index.html": "/DesignAgancy/index.html",
+    "main.cf968e92.css.map": "/DesignAgancy/static/css/main.cf968e92.css.map",
+    "main.872f9104.js.map": "/DesignAgancy/static/js/main.872f9104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf968e92.css",
+    "static/js/main.872f9104.js"
+  ]
+}
