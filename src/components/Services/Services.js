@@ -2,6 +2,8 @@
 import React from 'react';
 import styles from './Services.module.css';
 
+import servicesphoto from '../../assets/images/services.jpg'
+
 function Services() {
   return (
     <section className={styles.services}>
@@ -47,7 +49,7 @@ function Services() {
           </div>
         </div>
         <div className={styles.imageWrapper}>
-          <img src="/images/services.jpg" alt="Services" className={styles.image}/>
+          <img src={servicesphoto} alt="Services" className={styles.image}/>
         </div>
       </div>
     </section>

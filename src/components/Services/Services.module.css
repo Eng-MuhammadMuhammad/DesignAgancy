@@ -1,6 +1,8 @@
 .services {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+  padding-left: 150px;
+  padding-right: 150px;
   text-align: center;
 }
 

@@ -2,6 +2,8 @@
 import React from 'react';
 import styles from './About.module.css';
 
+import aboutphoto from '../../assets/images/about.jpg'
+
 function About() {
   return (
     <section className={styles.about}>
@@ -11,7 +13,7 @@ function About() {
       </div>
       <div className={styles.aboutContent}>
         <div className={styles.image}>
-          <img src="/images/about.jpg" alt="About Us" className={styles.imageImg}/>
+          <img src={aboutphoto} alt="About Us" className={styles.imageImg}/>
         </div>
         <div className={styles.text}>
           <h3 className={styles.textTitle}>About Us</h3>

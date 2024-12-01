@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./Header.module.css";
 
+import logophot from '../../assets/images/logo.png'
+
 function Header() {
   return (
     <header className={styles['header']}>
       <div className={styles['container']}>
         <div className={styles['logo']}>
-          <img src="/images/logo.png" alt="Logo" width={'60px'}/>
+          <img src={logophot} alt="Logo" width={'60px'}/>
         </div>
         <nav className={styles['links']}>
           <div className={styles['icon']}>
