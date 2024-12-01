@@ -1,14 +1,27 @@
 {
   "files": {
-    "main.css": "/DesignAgancy/static/css/main.cf968e92.css",
-    "main.js": "/DesignAgancy/static/js/main.872f9104.js",
+    "main.css": "/DesignAgancy/static/css/main.190ea4e0.css",
+    "main.js": "/DesignAgancy/static/js/main.50685f46.js",
+    "static/media/fa-solid-900.ttf": "/DesignAgancy/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/landing.jpg": "/DesignAgancy/static/media/landing.24ec9aeb7fc32bdfed56.jpg",
+    "static/media/fa-brands-400.ttf": "/DesignAgancy/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/portfolio-2.jpg": "/DesignAgancy/static/media/portfolio-2.bd5994fd62dff3cec53c.jpg",
+    "static/media/fa-solid-900.woff2": "/DesignAgancy/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/DesignAgancy/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/about.jpg": "/DesignAgancy/static/media/about.266b02f6defdcd810958.jpg",
+    "static/media/fa-regular-400.ttf": "/DesignAgancy/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/portfolio-3.jpg": "/DesignAgancy/static/media/portfolio-3.63308af3b31761c87be5.jpg",
+    "static/media/services.jpg": "/DesignAgancy/static/media/services.fcd5e7c86ab060bca4a0.jpg",
+    "static/media/portfolio-1.jpg": "/DesignAgancy/static/media/portfolio-1.77c42523467d675cef53.jpg",
+    "static/media/fa-regular-400.woff2": "/DesignAgancy/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/DesignAgancy/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/DesignAgancy/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/DesignAgancy/index.html",
-    "main.cf968e92.css.map": "/DesignAgancy/static/css/main.cf968e92.css.map",
-    "main.872f9104.js.map": "/DesignAgancy/static/js/main.872f9104.js.map"
+    "main.190ea4e0.css.map": "/DesignAgancy/static/css/main.190ea4e0.css.map",
+    "main.50685f46.js.map": "/DesignAgancy/static/js/main.50685f46.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf968e92.css",
-    "static/js/main.872f9104.js"
+    "static/css/main.190ea4e0.css",
+    "static/js/main.50685f46.js"
   ]
 }
